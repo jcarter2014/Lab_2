@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from sklearn.externals import joblib
 
 app = Flask(__name__)
 model = joblib.load('regressor.pkl')
